@@ -1,5 +1,11 @@
-# 【一俢哥的 Liunx 学习笔记】神一样的男人
+# 【一俢哥的 Liunx 学习笔记】求助神一样的男人
 要想熟悉 Liunx 的命令，需要求助于神一样的男人，那就是 man page，它可以帮助你更好的了解各个命令的用法，其实 man 是 manual 的简写。
+
+本篇文章你会学习到：
+* man page 的主要部分
+* man page 的操作
+* man page 命令
+* info page
 
 我们输入命令 `man date` 屏幕中会出现：
 

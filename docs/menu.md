@@ -72,12 +72,17 @@
 * swap
 
 ## 打包压缩备份
-* zip
+* gzip
+    * -c -d -t -v -#
+* zcat, zmore, zless, zgrep
 * bzip2
+    * -c -d -k -z -v -#
+* bzcat, bzmore, bzless, bzgrep
 * xz
+    * -d -t -l -k -c -#
+* xzcat, xzmore, xzless, xzgrep
 * tar
-* xfsdump
-* xfsrestore
+    * -c -t -x -z -j -J -v -f -C -p -P
 
 ## Vim
 

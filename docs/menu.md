@@ -9,9 +9,7 @@
 
 ## 帮助
 * man
-    * -k  
-    * -f 
-    * 1 
+    * -k -f 1 
 * info
 * --help
 
@@ -24,25 +22,19 @@
 ## 文件目录管理
 * 目录操作
     * cd
-        * .
-        * ..
-        * -
-        * ~
-        * ~account
+        * . .. - ~ ~account
     * pwd
     * mkdir
     * rmdir
     * ls
-        * -a
-        * -d
-        * -f
-        * -h
+        * -a -d -f -h
 * 文件操作
     * cp
     * rm
     * mv
-* basename
-* dirname
+    * basename
+    * dirname
+    * file
 * 文件内容查阅
     * cat
     * tac
@@ -55,26 +47,37 @@
 * 文件搜索
     * which
     * whereis
+    * locate
+    * updatedb
     * find
 
 ## 文件系统操作
-* df
-* du
+* 查看磁盘信息
+    * df
+        * -a -k -m -n -h -H -T -i
+    * du
+        * -a -h -s -S -k -m
 * ln
-* lsblk
-* blkid
-* parted
-* gdisk
-* fdisk
-* mkfs.xfs
-* mkfs.ext4
-* mount
-* umount
-* mknod
+* 磁盘操作
+    * lsblk
+    * blkid
+    * parted
+    * gdisk
+    * fdisk
+    * mkfs.xfs
+    * mkfs.ext4
+    * mount
+    * umount
+    * mknod
 * swap
 
 ## 打包压缩备份
-* 
+* zip
+* bzip2
+* xz
+* tar
+* xfsdump
+* xfsrestore
 
 ## Vim
 
@@ -99,8 +102,35 @@
     * sudo
     * visudo
 
-## 服务
+## 程序管理
+* ps
+* top
+* nice
+* renice
+* pstree
+* kill
+* killall
+* uptime
+* netstat
+* dmesg
+* vmstat
+
+
+## 服务&进程
 * daemon
 * systemctl
+* systemd
 
 ## 网络
+
+## 目录
+
+* /usr/
+    * share/
+        * man/：man page
+        * info/：info page
+        * doc/：其它文档
+* /etc/
+    * group
+    * passwd
+    * shadow

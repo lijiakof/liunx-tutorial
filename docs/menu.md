@@ -58,6 +58,7 @@
     * du
         * -a -h -s -S -k -m
 * ln
+* umask
 * 磁盘操作
     * lsblk
     * blkid
@@ -127,6 +128,12 @@
 * systemd
 
 ## 网络
+* ufw
+    * enable
+    * reload
+    * allow
+    * deny
+    * status
 
 ## 目录
 

@@ -7,7 +7,7 @@
 * [【一俢哥的 Liunx 学习笔记】沙场秋点兵](./docs/file-system.md)
 * [【一俢哥的 Liunx 学习笔记】包裹还是要打的](./docs/compress-package.md)
 * [【一俢哥的 Liunx 学习笔记】上古神器 Vim](./docs/vim.md)
-* [【一俢哥的 Liunx 学习笔记】账号角色管理]()
+* [【一俢哥的 Liunx 学习笔记】账号角色管理](./docs/account-system.md)
 * [【一俢哥的 Liunx 学习笔记】程序管理]()
 * [【一俢哥的 Liunx 学习笔记】yum](./docs/yum.md)
 * [【一俢哥的 Liunx 学习笔记】bash](./docs/bash.md)

@@ -57,8 +57,10 @@
         * -a -k -m -n -h -H -T -i
     * du
         * -a -h -s -S -k -m
+        * du --max-depth=1 -h
 * ln
 * umask
+    * -S
 * 磁盘操作
     * lsblk
     * blkid
@@ -91,6 +93,7 @@
 * 用户
     * useradd
     * passwd
+    * chage
     * usermod
     * userdel
     * id
@@ -98,8 +101,11 @@
     * chfn
     * chsh
 * 组
+    * groups
     * groupadd
-    * groupwd
+    * groupmod
+    * groupdel
+    * newgrp
 * ACL
     * getfacl
     * setfacl
@@ -107,6 +113,16 @@
     * su
     * sudo
     * visudo
+* 登陆信息
+    * w
+    * who
+    * last
+    * lastlog
+* 发送消息
+    * write
+    * mesg
+    * wall
+    * mail
 
 ## 程序管理
 * ps
@@ -146,3 +162,4 @@
     * group
     * passwd
     * shadow
+    * gshadow

@@ -3,9 +3,13 @@
 ## 开关机
 * sync
 * shutdown
+    * -t -k -r -h -n -c -f -F time message
 * reboot
+    * -n -w -d -f -i
 * halt
+    * -n -w -d -f -i -p
 * poweroff
+    * 
 
 ## 帮助
 * man
@@ -16,8 +20,11 @@
 ## 权限
 * rwx=421
 * chgrp
+    * -c -h -R -v 
 * chown
+    * user group -c -f -h -v -R
 * chmod
+    * u + r -c -f -v -R
 
 ## 文件目录管理
 * 目录操作
@@ -25,9 +32,11 @@
         * . .. - ~ ~account
     * pwd
     * mkdir
+        * -p
     * rmdir
+        * -p
     * ls
-        * -a -d -f -h
+        * -a -l -r -t -A -F -R
 * 文件操作
     * cp
     * rm
@@ -125,17 +134,35 @@
     * mail
 
 ## 程序管理
-* ps
-* top
-* nice
-* renice
-* pstree
-* kill
-* killall
-* uptime
-* netstat
-* dmesg
-* vmstat
+* job
+    * jobs
+        * -l -r -s
+    * &
+    * nohup 
+    * fg
+    * bg
+    * kill
+        * -l -1 -2 -9 -15
+* 程序
+    * ps
+        * -l -A -w -a -u -x
+    * top
+        * -d -b -n -p
+    * pstree
+    * killall
+        * -i -e -I
+    * nice
+    * renice
+    * free
+        * -b -t -s -c
+* 系统资源
+    * uname
+        * -a -s -r -m -p -i
+    * uptime
+    * netstat
+        * -a -t -uu -n -l -p
+    * dmesg
+    * vmstat
 
 
 ## 服务&进程

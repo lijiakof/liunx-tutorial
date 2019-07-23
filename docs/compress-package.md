@@ -71,5 +71,4 @@ jay-liunx% tar -xzvf backup.tar -C ./tmp
 * 查看：tar -tzvf
 * 解压：tar -xzvf
 
-
 〖坚持的一俢〗

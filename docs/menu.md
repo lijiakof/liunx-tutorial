@@ -153,9 +153,9 @@
         * -i -e -I
     * nice
     * renice
+* 系统资源
     * free
         * -b -t -s -c
-* 系统资源
     * uname
         * -a -s -r -m -p -i
     * uptime

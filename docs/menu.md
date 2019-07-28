@@ -198,6 +198,17 @@
     * deny
     * status
 
+## 软件包管理
+* yum
+    * install
+    * update
+    * upgrade
+    * list
+    * search
+    * remove
+    * clean
+* pacman
+
 ## 目录
 
 * /usr/

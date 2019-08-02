@@ -9,7 +9,6 @@
 * halt
     * -n -w -d -f -i -p
 * poweroff
-    * 
 
 ## 帮助
 * man
@@ -96,8 +95,6 @@
 * tar
     * -c -t -x -z -j -J -v -f -C -p -P
 
-## Vim
-
 ## 账号管理
 * 用户
     * useradd
@@ -164,7 +161,6 @@
     * dmesg
     * vmstat
 
-
 ## 服务&进程
 * daemon
 * systemctl
@@ -208,6 +204,40 @@
     * remove
     * clean
 * pacman
+
+## Vim
+* 一般指令模式
+    * h
+    * j
+    * k
+    * l
+    * [Ctrl] + f
+    * [Ctrl] + b
+    * 0
+    * $
+    * G
+    * gg
+    * n<Enter>
+    * x
+    * dd
+    * ndd
+    * yy
+    * nyy
+    * p
+    * u
+    * [Ctrl]+r
+    * .
+* 编辑模式
+    * i
+    * r
+* 命令行模式
+    * :w
+    * :w!
+    * :q
+    * :q!
+    * :wq
+    * :set nu
+    * :set nonu
 
 ## 目录
 

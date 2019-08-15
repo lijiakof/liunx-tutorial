@@ -12,4 +12,4 @@
 * [【一俢哥的 Liunx 学习笔记】大管家 Yum](./docs/yum.md)
 * [【一俢哥的 Liunx 学习笔记】系统服务](./docs/daemons.md)
 * [【一俢哥的 Liunx 学习笔记】上古神器 Vim](./docs/vim.md)
-* [【一俢哥的 Liunx 学习笔记】内功心法 Bash Shell](./docs/bash.md)
+* [【一俢哥的 Liunx 学习笔记】内功心法 Shell](./docs/shell.md)
